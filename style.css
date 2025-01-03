@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #111;
+    color: #fff;
+}
+
+/* Navigation Styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: #111;
+}
+
+.logo {
+    color: #00ffdd;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.contact-btn {
+    background-color: #00ffdd;
+    color: #111;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Hero Section Styles */
+.hero {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 50px 10%;
+    gap: 50px;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.profile-img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.subtitle {
+    color: #00ffdd;
+    font-size: 18px;
+}
+
+.hero-content {
+    flex: 1;
+    padding-top: 20px;
+}
+
+.title {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.title span {
+    color: #00ffdd;
+    display: block;
+}
+
+.description {
+    color: #999;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.Resume {
+    display: inline-block;
+    padding: 12px 24px;
+    background: transparent;
+    color: #00ffdd;
+    border: 2px solid #00ffdd;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.Resume:hover {
+    background: #00ffdd;
+    color: #111;
+}
+
